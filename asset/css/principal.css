@@ -1,0 +1,118 @@
+body {
+    background-image: url(/asset/img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+    position: relative;
+    /* Establece el cuerpo como el contenedor principal */
+}
+
+.boder {
+    width: 30%;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 0;
+    /* Ajusta la posición desde la parte superior de la vaca */
+    left: 0;
+    /* Ajusta la posición desde la izquierda de la vaca */
+}
+
+.boderDos {
+    width: 30%;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    /* Ajusta la posición desde la parte inferior */
+    right: 0;
+    /* Ajusta la posición desde la derecha */
+    transform: rotate(180deg);
+    /* Gira la imagen 180 grados */
+}
+
+.circulo {
+    width: 20%;
+    margin-left: 55%;
+    margin-top: 70px;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+    margin-left: 57%;
+    position: absolute;
+    top: 100px;
+    /* Ajusta la posición desde la parte superior */
+    left: 10px;
+    /* Ajusta la posición desde la izquierda */
+
+}
+
+.notaCredito {
+    width: 25%;
+    height: auto;
+    margin-left: 52%;
+    position: absolute;
+    top: 55%;
+    /* Ajusta la posición desde la parte superior */
+    left: 10px;
+    /* Ajusta la posición desde la izquierda */
+    z-index: 2;
+    /* Ajusta el valor del z-index según sea necesario */
+    transition: transform 0.3s ease-in-out;
+}
+
+.notaCredito:hover {
+    transform: scale(1.1);
+}
+
+.apoyos {
+    width: 25%;
+    height: auto;
+    margin-left: 52%;
+    position: absolute;
+    top: 65%;
+    /* Ajusta la posición desde la parte superior */
+    left: 10px;
+    /* Ajusta la posición desde la izquierda */
+    z-index: 2;
+    /* Ajusta el valor del z-index según sea necesario */
+    transition: transform 0.3s ease-in-out;
+}
+
+.apoyos:hover {
+    transform: scale(1.1);
+}
+
+.clientes {
+    width: 25%;
+    height: auto;
+    margin-left: 52%;
+    position: absolute;
+    top: 75%;
+    /* Ajusta la posición desde la parte superior */
+    left: 10px;
+    /* Ajusta la posición desde la izquierda */
+    z-index: 2;
+    /* Ajusta el valor del z-index según sea necesario */
+    transition: transform 0.3s ease-in-out;
+}
+
+.clientes:hover {
+    transform: scale(1.1);
+}
+
+
+.vaca {
+    width: 30%;
+    height: auto;
+    margin: -100px 0 0 0;
+    padding: 0;
+    display: block;
+}
